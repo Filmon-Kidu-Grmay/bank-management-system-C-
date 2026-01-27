@@ -12,16 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
     - name: Build
       run: make
 
-    # Optional: only keep this if `make test` or `make check` exists
-    # - name: Test
-    #   run: make check
-
-
-    # Optional: only keep this if `make test` or `make check` exists
-    # - name: Test
-    #   run: make check
 
